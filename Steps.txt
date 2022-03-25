@@ -1,0 +1,25 @@
+#Requirement for this project:
+
+1) Netbeans
+2) For database XAMPP server
+
+Steps:
+1) Download the project 
+2) Create a new project in Netbeans
+3) Copy all the files that is given in netbeans folder.
+4) To add jar files , right click on libraries --> add jar/folders, add all the jar files from given jar folder.
+5) After creating database run the application.
+
+# Creating a database.
+
+1) Open XAMPP server .
+2) Click admin in mysql line.
+3) After that click on new.
+4) Create a new database folder with name "atbs"
+5) the following tables are created:
+   - account(Username, Name, Password, Sec_Q, Answer)
+   - book_ticket(Ticket_No, Flight_Id, Flight_Name, Source, Destination, Date, Arrival_Time, Departure_Time, Total_Price, Seats, C_Name)
+   - cancel_ticket(Ticket_No, Flight_Id, Flight_Name, Source, Destination, Booking_Date, Arrival_Time, Departure_time, Price,Seats, C_Name, Return_Date))
+   - flight(Flight_Id, Flight_Name, Source, Destination, Date, Arrival_Time, Departure_Time,Flight_Price)
+
+
